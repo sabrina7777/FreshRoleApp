@@ -86,8 +86,7 @@ namespace FreshRoleApp.Data
             jobsDict["Training Manager"].NextJobs.Add(jobsDict["CEO"]);
             jobsDict["Training Specialist"].NextJobs.Add(jobsDict["Training Manager"]);
             jobsDict["Implementation Specialist"].NextJobs.Add(jobsDict["Training Specialist"]);
-            jobsDict["Support Team Lead"].NextJobs.Add(jobsDict["Training Specialist"]);
-            jobsDict["Support Team Lead"].NextJobs.Add(jobsDict["Implementation Specialist"]);
+           jobsDict["Support Team Lead"].NextJobs.Add(jobsDict["Implementation Specialist"]);
             jobsDict["Support Specialist"].NextJobs.Add(jobsDict["Support Team Lead"]);
 
             context.Jobs.UpdateRange(jobsDict.Values);

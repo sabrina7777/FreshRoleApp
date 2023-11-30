@@ -256,3 +256,4 @@ C:\Users\sabri\Documents\Projects\FreshRoleApp\FreshRoleApp\obj\Debug\net8.0\ref
 C:\Users\sabri\Documents\Projects\FreshRoleApp\FreshRoleApp\obj\Debug\net8.0\FreshRoleApp.pdb
 C:\Users\sabri\Documents\Projects\FreshRoleApp\FreshRoleApp\obj\Debug\net8.0\FreshRoleApp.genruntimeconfig.cache
 C:\Users\sabri\Documents\Projects\FreshRoleApp\FreshRoleApp\obj\Debug\net8.0\ref\FreshRoleApp.dll
+C:\Users\sabri\Documents\Projects\FreshRoleApp\FreshRoleApp\obj\Debug\net8.0\FreshRoleApp.sourcelink.json
