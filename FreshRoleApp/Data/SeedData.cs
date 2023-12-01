@@ -79,20 +79,18 @@ namespace FreshRoleApp.Data
                 Category = "Customer Focus",
                 Tier = 1,
                 IsActive = true,
-                NextJobs = new List<Job>
-                //attemping to figure out NextJob link in SeedData
-                {
-                     new Job()
-                     {
-                           Title = "Support Team Lead",
-                           Description = "Provide guidance, instruction, direction and leadership to the Product Support Specialists who are primarily responsible for resolution of assigned product support cases. \r\n",
-                           Tier = 2,
-                           Category = "Customer Focus",
-                           IsActive = true,
-                     },
-                }
-            }
-
+                //NextJobs = new List<Job>
+            },
+               
+                
+            new Job()
+            {
+                Title = "Support Team Lead",
+                Description = "Provide guidance, instruction, direction and leadership to the Product Support Specialists who are primarily responsible for resolution of assigned product support cases. \r\n",
+                Tier = 2,
+                Category = "Customer Focus",
+                IsActive = true,
+            },
 
         };
 
@@ -108,8 +106,8 @@ namespace FreshRoleApp.Data
             jobsDict["Training Specialist"].NextJobs.Add(jobsDict["Training Manager"]);
             jobsDict["Implementation Specialist"].NextJobs.Add(jobsDict["Training Specialist"]);
             //This line below errors as Support Team Lead not present in the Dictionary - must click Continue for app to load so removing
-           //jobsDict["Support Team Lead"].NextJobs.Add(jobsDict["Implementation Specialist"]);
-            jobsDict["Support Specialist"].NextJobs.Add(jobsDict["Support Team Lead"]);
+            //jobsDict["Support Team Lead"].NextJobs.Add(jobsDict["Implementation Specialist"]);
+            //jobsDict["Support Specialist"].NextJobs.Add(jobsDict["Support Team Lead"]);
 
             context.Jobs.UpdateRange(jobsDict.Values);
             context.SaveChanges();
