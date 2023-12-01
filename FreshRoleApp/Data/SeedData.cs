@@ -103,8 +103,8 @@ namespace FreshRoleApp.Data
 
             // Setup the connections (link a job to an existing job already created)
             jobsDict["Training Manager"].NextJobs.Add(jobsDict["CEO"]);
-            jobsDict["Training Specialist"].NextJobs.Add(jobsDict["Training Manager"]);
-            jobsDict["Implementation Specialist"].NextJobs.Add(jobsDict["Training Specialist"]);
+            //jobsDict["Training Specialist"].NextJobs.Add(jobsDict["Training Manager"]);
+            //jobsDict["Implementation Specialist"].NextJobs.Add(jobsDict["Training Specialist"]);
             //This line below errors as Support Team Lead not present in the Dictionary - must click Continue for app to load so removing
             //jobsDict["Support Team Lead"].NextJobs.Add(jobsDict["Implementation Specialist"]);
             //jobsDict["Support Specialist"].NextJobs.Add(jobsDict["Support Team Lead"]);
