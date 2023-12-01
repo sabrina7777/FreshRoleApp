@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MHne2Wc1SD8b35EHPj5++rVBqr63CgYyAchcADCUQh0=",
+  "Hash": "Sb+XsGVoKwJ2ro++htkfM5JIs4TApXVS8syWlkDpAfA=",
   "Source": "FreshRoleApp",
   "BasePath": "_content/FreshRoleApp",
   "Mode": "Default",
@@ -2390,6 +2390,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\peopleworking.png",
+      "SourceId": "FreshRoleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\",
+      "BasePath": "_content/FreshRoleApp",
+      "RelativePath": "peopleworking.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peopleworking.png"
+    },
+    {
+      "Identity": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\searchforrole.jpg",
+      "SourceId": "FreshRoleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\",
+      "BasePath": "_content/FreshRoleApp",
+      "RelativePath": "searchforrole.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\searchforrole.jpg"
     }
   ]
 }

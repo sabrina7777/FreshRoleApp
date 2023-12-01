@@ -249,6 +249,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\peopleworking.png",
+      "PackagePath": "staticwebassets\\peopleworking.png"
+    },
+    {
+      "Id": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\searchforrole.jpg",
+      "PackagePath": "staticwebassets\\searchforrole.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FreshRoleApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

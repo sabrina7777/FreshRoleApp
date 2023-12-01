@@ -1,10 +1,9 @@
 .navbar {
-    background: linear-gradient(#FC7426, #FFB34E);
+    background: linear-gradient(#8BD0E9, #BCE2F1);
 }
 
 .logo {
-    height: 200px;
-    border: 1px solid #04274F;
+    height: 300px;   
 }
 
 html {
@@ -29,7 +28,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: antiquewhite ;
+    background-color: aliceblue ;
 }
 
 table {
