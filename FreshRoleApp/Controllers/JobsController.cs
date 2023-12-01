@@ -31,6 +31,12 @@ namespace FreshRoleApp.Controllers
             return View();
         }
 
+        // POST: Jobs/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index",await _context.Jobs.Where( j => j.Title.Contains(SearchPhrase)).ToListAsync());
+        }
+
         // GET: Jobs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -50,6 +56,10 @@ namespace FreshRoleApp.Controllers
         }
 
         // GET: Jobs/Create
+        //[Authorize] here bto require someone to log in to creat a new job
+        //then when red, right-click import using statement
+        //Add on Jobs/Create, Delete, DeleteConfirmed
+
         public IActionResult Create()
         {
             return View();

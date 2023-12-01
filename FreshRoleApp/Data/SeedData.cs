@@ -63,6 +63,14 @@ namespace FreshRoleApp.Data
                 Category = "Customer Focus",
                 IsActive = true
             },
+            new Job()
+            {
+                Title = "HR Generalist",
+                Description = "Is the primary point of contact for employees to ask HR-related questions.",
+                Tier = 1,
+                Category = "Operations",
+                IsActive = true
+            },
 
             new Job()
             {

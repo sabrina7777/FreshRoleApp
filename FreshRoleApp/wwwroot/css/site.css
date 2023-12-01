@@ -1,6 +1,5 @@
 .navbar {
-    background: radial-gradient(#92FBF7, #E9FBFD);
-    #E9FBFD
+    background: linear-gradient(#FC7426, #FFB34E);
 }
 
 .logo {
@@ -29,7 +28,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: antiquewhite ;
 }
 
 table {
