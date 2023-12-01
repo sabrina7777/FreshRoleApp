@@ -14,15 +14,14 @@ Instructions:
 3. Click IIS Express to run the app. 
 4. Click the "Job" header which will display the database migration message. 
 5. Do one of the following: 
-- Click the "Apply Migration" button
-- Go to the Package Manager Console in VS and run the command, "update-database" (relaunch the app) or enter the command "dotnet ef database update" in Command Prompt
-
+  - Click the "Apply Migration" button
+  - Go to the Package Manager Console in VS and run the command, "update-database" (relaunch the app) or enter the command "dotnet ef database update" in Command Prompt
 6. When you launch the app, click on the "Job" header and there should be populated job data. 
 
 
 Requirements Met:
-Make your application an API
-Make your application a CRUD API (The "Controllers" classes with the HTTP requests do this: they create, read, update, and delete info from the job class)
-Make your application asynchronous (A lot of the Controller methods are async)
-Add a comment for where I used a SOLID principle
-Add visual appeal (generated logo, color)
+- Make your application an API
+- Make your application a CRUD API (The "Controllers" classes with the HTTP requests do this: they create, read, update, and delete info from the job class)
+- Make your application asynchronous (A lot of the Controller methods are async)
+- Add a comment for where I used a SOLID principle
+- Add visual appeal (generated logo, color)
