@@ -21,7 +21,7 @@ Instructions:
     Create New to create a new job. 
     Edit to make a change. 
     Details to view job information for one role at a time. 
-    Delete to delete the job. NOTE: You cannot delete the CEO or Training Manager (you will see an error). 
+    Delete to delete the job. NOTE: You cannot delete the CEO unless you delete the Training Manager first. Attempt to delete the CEO first to see a custom error page. 
 8. Click the "Search" to enter a job title and it will see if any job title matches.
     Enter "support" and it should display two titles: Support Specialist and Support Team Lead.
 

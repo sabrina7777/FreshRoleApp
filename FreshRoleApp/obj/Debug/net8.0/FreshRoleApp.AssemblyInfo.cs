@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FreshRoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+590f0a7d57f633ba5a69985e934cd0e50e49a5ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea2339e7332f72094cc4da9c291f25bf2ed4087a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FreshRoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FreshRoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

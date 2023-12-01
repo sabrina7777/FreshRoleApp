@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FreshRoleApp.Data;
 using FreshRoleApp.Models;
+using Microsoft.Data.SqlClient;
+using System.Diagnostics;
 
 namespace FreshRoleApp.Controllers
 {
@@ -155,16 +157,52 @@ namespace FreshRoleApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var job = await _context.Jobs.FindAsync(id);
-            if (job != null)
+            try
             {
-                _context.Jobs.Remove(job);
-            }
+                var jobToDelete = await _context.Jobs
+                    .Include(j => j.NextJobs)
+                    .FirstOrDefaultAsync(j => j.Id == id);
 
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+                if (jobToDelete == null)
+                {
+                    return NotFound();
+                }
+
+                // Remove references from other jobs
+                foreach (var nextJob in jobToDelete.NextJobs.ToList())
+                {
+                    jobToDelete.NextJobs.Remove(nextJob);
+                }
+
+                // Now you can safely delete
+                _context.Jobs.Remove(jobToDelete);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Index));
+            }
+            catch (DbUpdateException ex)
+            {
+                // Check if the exception is related to the foreign key constraint
+                if (ex.InnerException is SqlException sqlException && sqlException.Number == 547)
+                {
+                    // Redirect to a specific error page or action
+                    return RedirectToAction(nameof(Error));
+                }
+
+                // Handle other types of exceptions if needed
+                throw;
+            }
         }
 
+        public IActionResult Error()
+        {
+            var errorViewModel = new ErrorViewModel
+            {
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier,
+            };
+
+            return View(errorViewModel);
+        }
         private bool JobExists(int id)
         {
             return _context.Jobs.Any(e => e.Id == id);
