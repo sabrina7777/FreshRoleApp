@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5E4CcUfZUOmMb5HeA0iFLivDQSfLbV9eqGB3H6t3Lhw=",
+  "Hash": "MHne2Wc1SD8b35EHPj5++rVBqr63CgYyAchcADCUQh0=",
   "Source": "FreshRoleApp",
   "BasePath": "_content/FreshRoleApp",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreshRoleApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\careerpathinglogo.png",
+      "SourceId": "FreshRoleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\",
+      "BasePath": "_content/FreshRoleApp",
+      "RelativePath": "careerpathinglogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\careerpathinglogo.png"
     },
     {
       "Identity": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\css\\site.css",

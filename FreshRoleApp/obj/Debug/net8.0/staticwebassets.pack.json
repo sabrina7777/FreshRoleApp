@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\FreshRoleApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\careerpathinglogo.png",
+      "PackagePath": "staticwebassets\\careerpathinglogo.png"
+    },
+    {
       "Id": "C:\\Users\\sabri\\Documents\\Projects\\FreshRoleApp\\FreshRoleApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

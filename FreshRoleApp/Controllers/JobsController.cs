@@ -25,6 +25,12 @@ namespace FreshRoleApp.Controllers
             return View(await _context.Jobs.ToListAsync());
         }
 
+        // GET: Jobs/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
         // GET: Jobs/Details/5
         public async Task<IActionResult> Details(int? id)
         {

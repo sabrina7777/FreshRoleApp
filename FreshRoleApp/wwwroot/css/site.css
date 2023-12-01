@@ -1,5 +1,16 @@
+.navbar {
+    background: radial-gradient(#92FBF7, #E9FBFD);
+    #E9FBFD
+}
+
+.logo {
+    height: 200px;
+    border: 1px solid #04274F;
+}
+
 html {
-  font-size: 14px;
+  font-size: 12px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -20,3 +31,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+table {
+    background-color: azure;
+}
+
